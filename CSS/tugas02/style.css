@@ -1,0 +1,20 @@
+h1 {
+  text-transform: capitalize;
+}
+p.one {
+  text-align: justify;
+}
+p.two {
+  text-decoration: underline;
+}
+p.three,
+p.four {
+  text-align: center;
+}
+p.five {
+  text-decoration: line-through;
+}
+* {
+  color: white;
+  background-color: lightgreen;
+}
