@@ -1,0 +1,28 @@
+@height : 10px;
+@width : @height + 20px;
+@color : #abcde3;
+
+h1 {
+    width: @width;
+    height: @height;
+    color: @color;
+}
+
+.panel{
+    border: 4px solid dodgerblue;
+    background: lightblue;
+    margin: 15px;
+}
+
+.big-panel{
+    .panel;
+    font-size: 40px;
+    padding: 35px;
+
+}
+
+.little-panel{
+    .panel;
+    font-size: 20px;
+    padding: 15px;
+}
