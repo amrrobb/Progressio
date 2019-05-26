@@ -1,0 +1,19 @@
+h1 {
+  font-style: tahoma;
+  color: green;
+
+}
+h2 {
+  color: red;
+  font-style: tahoma;
+}
+p {
+  font-style: tahoma;
+  color: blue;
+  font-size: 18px;
+}
+/* .one {
+  height: 20px;
+  width: 20px;
+  background: url("logo1.jpg");
+} */

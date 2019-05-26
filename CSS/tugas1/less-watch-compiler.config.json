@@ -1,0 +1,7 @@
+{
+    "watchFile": "[.less]",   
+    "outputFile": "[.css]",
+    "AllowedExtensions" : "[.less]",   
+    "sourceMap": false,
+    "minified": false
+}
