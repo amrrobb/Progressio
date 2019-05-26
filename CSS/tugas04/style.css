@@ -1,0 +1,15 @@
+h1 {
+  font-size: 20px;
+}
+div.register {
+  background-color: white;
+  font-size: 15px;
+}
+div.register[type="input"] {
+  border: 1px solid black;
+}
+[type="button"] {
+  align: center ;
+  font-size: 20px;
+  color: lightcoral;
+}

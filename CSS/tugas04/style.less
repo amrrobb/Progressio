@@ -1,0 +1,21 @@
+@font-size : 20px;
+@border : 1px solid black;
+
+h1{
+    font-size: @font-size
+}
+
+div.register{
+    
+    background-color: white;
+    font-size: @font-size - 5;
+    &[type="input"]{
+        border: @border;
+    }
+}
+
+[type="button"]{
+    align: center ;
+    font-size : @font-size;
+    color: lightcoral;
+}

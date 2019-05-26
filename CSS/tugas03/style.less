@@ -1,0 +1,31 @@
+
+@font-size : 20px;
+@font : sans-serif;
+
+p{
+    font-family: @font;
+    font-size: @font-size;
+
+    &.one{
+        background-color: lightsalmon;
+        
+    }
+    &.two{
+        color : white;
+        background-color: lightseagreen;
+
+    }
+    &.three{
+        background-color: white;
+        font-family: monospace;
+        font-size: @font-size * 2;
+        border : 4px solid black;
+    }
+    &.four{
+        font-weight: 600;
+        font-family: serif;
+        background-color: gray;
+        font-size: @font-size * 1.6;
+
+    }
+}
