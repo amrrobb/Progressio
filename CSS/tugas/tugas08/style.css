@@ -1,0 +1,29 @@
+div {
+  height: 500px;
+  width: 600px;
+  margin: 10px 10px;
+  font: bold 20px serif;
+  overflow: scroll;
+  background: #fff url("../tugas07/image1.jpg") repeat-y left top scroll;
+  background-size: 200px 120px;
+  background-repeat: repeat-y;
+}
+div p.satu {
+  padding: 30px 20px 0;
+  color: #0b263e;
+  text-align: right;
+}
+div p.dua {
+  text-align: left;
+  padding: 0 20px 60px;
+  color: red;
+}
+div p.tiga {
+  padding: 10px 20px 60px;
+  color: blue;
+  text-align: right;
+}
+body {
+  background-size: cover;
+  background: url("../tugas07/image2.jpg") center 0 fixed;
+}

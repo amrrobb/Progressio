@@ -1,0 +1,41 @@
+@color: #0b263e;
+@img: "../tugas07/";
+
+div{
+    height: 500px;
+    width: 600px;
+    // border: 5px solid @color;
+    margin: 10px 10px;
+    
+    
+    font: bold 20px serif;
+    
+    overflow: scroll;
+    
+    background: #fff url("@{img}image1.jpg") repeat-y left top scroll; 
+    background-size: 200px 120px;
+    background-repeat: repeat-y;
+    p.satu{
+        padding: 30px 20px 0;
+        color: @color;
+        text-align: right;
+
+    }
+    p.dua{
+        text-align: left;
+        padding: 0 20px 60px;
+        color: red;
+
+    }
+    p.tiga{
+        padding: 10px 20px 60px;
+        color: blue;
+        text-align: right;
+    
+    }
+}
+    
+body{
+    background-size: cover;
+    background: url("@{img}image2.jpg") center 0 fixed; 
+}
