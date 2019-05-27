@@ -1,0 +1,22 @@
+.slider-div {
+  text-align: center;
+}
+.slider-div .slider {
+  margin: 3px;
+  height: 300px;
+  width: 45%;
+}
+.div_menu {
+  background-color: #1a1a1a;
+}
+.div_menu a {
+  color: white;
+}
+footer {
+  text-align: center;
+  background-color: #1a1a1a;
+  color: white;
+}
+p {
+  text-align: justify;
+}
