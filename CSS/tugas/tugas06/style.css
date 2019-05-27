@@ -1,0 +1,16 @@
+p {
+  background-color: aquamarine;
+  width: 300px;
+  height: 100px;
+  overflow: scroll;
+  padding: 25px;
+}
+p.satu {
+  border: 15px dotted magenta;
+}
+p.dua {
+  border: 10px solid lightgreen;
+}
+p.tiga {
+  border: 20px dashed blueviolet;
+}
