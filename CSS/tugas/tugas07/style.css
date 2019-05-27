@@ -1,0 +1,17 @@
+div {
+  height: 500px;
+  width: 50%;
+  border: 5px solid #1c6cb1;
+  margin: 10px auto;
+  text-align: justify;
+  color: #1c6cb1;
+  background: url("image1.jpg") repeat center 5px scroll;
+  background-size: 200px 120px;
+}
+div.repeat {
+  background-repeat: repeat-x;
+}
+body {
+  background-size: cover;
+  background: url("image2.jpg") center 0;
+}

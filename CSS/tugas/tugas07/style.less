@@ -1,0 +1,24 @@
+@color: #1c6cb1;
+
+div{
+    height: 500px;
+    width: 50%;
+    border: 5px solid @color;
+    margin: 10px auto;
+    text-align: justify;
+    color: @color;
+    
+    background: url("image1.jpg") repeat center 5px scroll; 
+    background-size: 200px 120px;
+    &.repeat{
+        background-repeat: repeat-x;
+    }
+
+
+}
+    
+body{
+    background-size: cover;
+    background: url("image2.jpg") center 0; 
+}
+    
