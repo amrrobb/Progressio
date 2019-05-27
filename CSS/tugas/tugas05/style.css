@@ -2,7 +2,7 @@
   text-align: center;
 }
 .slider-div .slider {
-  margin: 3px;
+  margin: 3px auto;
   height: 300px;
   width: 45%;
 }
