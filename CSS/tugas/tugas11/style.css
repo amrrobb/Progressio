@@ -1,0 +1,36 @@
+header {
+  height: 40px;
+  background-color: #333333;
+}
+header a {
+  text-decoration: none;
+  font: bold 15px serif;
+  color: white;
+}
+header a:hover {
+  color: azure;
+}
+ul {
+  padding-top: 7px;
+  list-style: none;
+}
+ul li {
+  display: inline;
+  margin: -30px 40px 30px -30px;
+}
+body {
+  background: #cdcdcd;
+}
+p {
+  column-count: 4;
+  column-rule: 3px solid #333333;
+  column-gap: 20px;
+  text-align: justify;
+  column-fill: balance;
+}
+footer {
+  height: 50px;
+  background-color: #1a1a1a;
+  text-align: center;
+  color: white;
+}

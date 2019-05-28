@@ -1,0 +1,48 @@
+@a: lighten(black, 20%);
+@text-color : white;
+@text-j : justify;
+@text-c : center;
+
+header{
+    height: 40px;
+    background-color: @a;
+    a{
+        text-decoration: none;
+        font: bold 15px serif;
+        color: @text-color;
+        &:hover{
+            color: azure;
+        }
+    }
+    
+}
+
+ul{
+    padding-top: 7px;  
+    list-style: none;
+    li{
+        display: inline;
+        margin: -30px 40px 30px -30px ;
+    }
+}
+
+body{
+    background: lighten(gray, 30%);
+    
+}
+
+
+p{
+    column-count: 4;
+    column-rule: 3px solid @a;
+    column-gap: 20px;
+    text-align: justify;
+    column-fill: balance;
+}
+
+footer{
+    height: 50px; 
+    background-color: @a/2;
+    text-align: @text-c;
+    color: @text-color;
+}
