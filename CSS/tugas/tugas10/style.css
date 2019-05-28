@@ -1,0 +1,15 @@
+body {
+  background-image: linear-gradient(lightcoral, white);
+}
+div {
+  margin: 15px auto;
+  width: 500px;
+}
+.satu {
+  height: 500px;
+  background-image: radial-gradient(circle at bottom, white, aquamarine);
+}
+.dua {
+  height: 125px;
+  background-image: radial-gradient(circle at 50% 50%, white, aquamarine, white);
+}
