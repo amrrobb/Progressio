@@ -1,0 +1,33 @@
+@color: #0b263e;
+@img: "../img/";
+
+div.container{
+    
+    width: 700px;
+    height: 600px;
+    
+    position: relative;
+    
+    float: right;
+    // background-color: white;
+    background : white top right scroll;
+    h1{
+        text-align: right;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    p{
+        padding: 5px;
+        text-align: right;
+        color: @color;
+        font: bold 12px serif;
+    }
+    z-index: 2;
+}
+
+body{
+    background: url("@{img}image2.jpg") fixed;
+    background-size: cover;
+    z-index: 1;
+}

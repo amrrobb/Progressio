@@ -1,0 +1,24 @@
+div.container {
+  width: 700px;
+  height: 600px;
+  position: relative;
+  float: right;
+  background: white top right scroll;
+  z-index: 2;
+}
+div.container h1 {
+  text-align: right;
+  padding: 5px;
+  font-size: 20px;
+}
+div.container p {
+  padding: 5px;
+  text-align: right;
+  color: #0b263e;
+  font: bold 12px serif;
+}
+body {
+  background: url("../img/image2.jpg") fixed;
+  background-size: cover;
+  z-index: 1;
+}
