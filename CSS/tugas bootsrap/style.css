@@ -1,0 +1,19 @@
+body{
+    background-color: #333333;
+}
+form{
+    margin: 20px auto;
+    color: white;
+    padding: 20px 20px 40px 20px;
+    width: 40%;
+    float: middle;
+    border-radius: 25px;
+    /* border: 2px solid lightseagreen; */
+
+}
+
+img{
+    height: 128px;
+    weight: 128px;
+    margin: 10px;
+}
