@@ -3,7 +3,14 @@
  <head>
      <meta charset="UTF-8">
      <title>Javascript Event | NIOMIC</title>
- </head>
+ 
+    <style media="screen">
+        .redstring {
+            color: lightcoral;
+        }
+    </style>
+ 
+</head>
  <body>
 
      <!-- <input class="middle" type="text" value="Alivia">
@@ -14,14 +21,19 @@
      <br><br> -->
      <button type="button" onclick="jalanScript()">Click !</button>
 
-     <p id="click">hahaha</p>
+     <p id="click"></p>
+
+     <h1>Hello Semua</h1>
+
      <script type="text/javascript">
         function jalanScript(){
           // console.log(document.getElementsByClassName('middle'));
-          var a = document.getElementsByTagName('p')[0];
-          a.attributes.removeNamedItem("id")
+          var a = document.getElementsByTagName('h1')[0];
+          var b = document.createAttribute("class");
+
+          b.value = "redstring";
           
-        //   document.getElementById("click").innerHTML = b; 
+          a.attributes.setNamedItem(b); 
         }
      </script>
  </body>
