@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>Javascript Event | NIOMIC</title>
+ </head>
+ <body>
+
+     <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ab nobis ad magnam consequatur repellendus, saepe velit, nam et, facilis similique dolores totam incidunt odio voluptate quasi odit ex architecto!
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptate iusto natus, reprehenderit laudantium veniam! Aperiam, dignissimos? Atque, quas. Adipisci facilis eius deserunt? Voluptates harum laboriosam dolore cupiditate, quidem rerum?
+
+     </p>
+     <button type="button" onclick="jalanScript()">Click !</button>
+
+     <p id="click"></p>
+     <script type="text/javascript">
+
+        // var x = document.getElementsByTagName("body");
+        // x.addEventListener("mouseover", myFunction());
+        // x.addEventListener("click", mySecondFunction());
+        // x.addEventListener("mouseout", myThirdFunction());
+
+        document.addEventListener("click", function() {
+            document.getElementById("click").innerHTML = "Don't Touch";
+        })
+        // function myFunction() {
+        // document.getElementById("click").innerHTML = "Moused over!"
+        // }
+
+        // function mySecondFunction() {
+        // document.getElementById("click").innerHTML = "Clicked!"
+        // }
+
+        // function myThirdFunction() {
+        // document.getElementById("click").innerHTML = "Moused out!"
+        // }
+
+     </script>
+ </body>
+</html>
