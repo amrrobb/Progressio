@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>Javascript Event | NIOMIC</title>
+     
+     <style>
+         .dropoff {
+             float: left;
+             width: 100px;
+             height: 50px;
+             margin: 30px;
+             padding: 15px;
+             border: 1px dashed rgb(41, 37, 37);
+         }
+     </style>
+ </head>
+ <body>
+
+    <h1>Drag Text</h1>
+<!-- 
+    <input type="text" id="one" oncopy="copytext()" value="Tulisan">
+    <input type="text" id="two" onpaste="pastetext()"> -->
+    <p id="clicked"></p>
+
+    <div class="dropoff" ondrop="drop(event)" ondragover="allowdrop(event)">
+        <p ondragstart="dragstart(event)" ondrag="dragging(event)" draggable="true" id="dragon">Drag Me</p>
+    </div>
+
+    <div class="dropoff" ondrop="drop(event)" ondragover="allowdrop(event)">
+        <p ondragstart="dragstart(event)" ondrag="dragging(event)" draggable="true" id="dragon"></p>
+    </div>
+
+    <br>
+
+    
+
+    <script type="text/javascript">
+        function dragstart(event) {
+            event.dataTransfer.setData("Text", event.target.id)  
+        } 
+
+        function dragging(event) {
+            document.getElementById("clicked").innerHTML = "Dragging Element"
+        }       
+
+        function allowdrop(event) {
+            event.preventDefault();
+        }
+
+        function drop(event) {
+            event.preventDefault();
+            var data = event.dataTransfer.getData("Text");
+            event.target.appendChild(document.getElementById(data));
+            document.getElementById("clicked").innerHTML = "Element has been dropped"
+        }
+        // }
+     </script>
+
+</body>
+</html>
