@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>Javascript Event | NIOMIC</title>
+ </head>
+ <body>
+    <a href="#" name="one">ONE</a> <br>
+    <a href="#" name="two">TWO</a><br>
+    <a href="#" name="three">THREE</a><br>
+    <a href="#" >FOUR</a><br><br>
+
+    <button type="button" onclick="jalanScript()">Click !</button>
+
+    <p id="click"></p>
+
+    <script type="text/javascript">
+        function jalanScript(){
+            // console.log(document.getElementsByClassName('middle'));
+            var a = document.anchors.length;
+            //   var b = a.attributes[0].name;
+            document.getElementById("click").innerHTML = a     
+          
+        //   document.getElementById("click").innerHTML = b; 
+        }
+     </script>
+
+</body>
+</html>
