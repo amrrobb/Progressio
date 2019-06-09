@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>Javascript Event | NIOMIC</title>
+ </head>
+ <body>
+
+    <button type="button" onclick="jalanScript()">Click !</button>
+
+    <p id="click"></p>
+
+    <script type="text/javascript">
+        function jalanScript(){
+            document.cookie = "username = robobor";
+            var a = document.cookie;
+            document.getElementById("click").innerHTML = "Cookie = " + a;
+            //   var b = a.attributes[0].name;
+            // document.getElementById("click").innerHTML = a     
+          
+        }
+     </script>
+
+</body>
+</html>
