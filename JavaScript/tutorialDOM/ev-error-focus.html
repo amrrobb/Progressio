@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>Javascript Event | NIOMIC</title>
+ </head>
+ <body>
+
+    <img src="hahah.jpg" alt="" srcset="" onerror="error()">
+
+   
+    <br>
+    Pilih menu : <input type="text" onfocus="eventfocus(this)">
+
+
+    <p id="clicked"></p>
+
+    <script type="text/javascript">
+        function error() {
+            alert("Error: Can not display image");
+        }
+
+        function eventfocus(x){
+            x.style.background = "lightcoral";
+        }
+     </script>
+
+</body>
+</html>
