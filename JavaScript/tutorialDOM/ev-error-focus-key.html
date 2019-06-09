@@ -12,6 +12,10 @@
     <br>
     Pilih menu : <input type="text" onfocus="eventfocus(this)">
 
+    <br> <br>
+    Keypress : <input type="text" onkeypress="changebox(this)" > <br> <br>
+    Keydown : <input type="text" onkeydown="changebox(this)" > <br> <br>
+    Keyup : <input type="text" onkeyup="changebox(this)" >
 
     <p id="clicked"></p>
 
@@ -22,6 +26,10 @@
 
         function eventfocus(x){
             x.style.background = "lightcoral";
+        }
+
+        function changebox(x) {
+            x.style.background = "lightgreen";
         }
      </script>
 

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>Javascript Event | NIOMIC</title>
+ </head>
+ <body>
+
+    <p onmouseover="zoomin(this)" onmouseout="zoomout(this)">Hello world</p>
+
+    <p id="click"></p>
+
+    <script type="text/javascript">
+        function zoomin(x){ 
+            x.style.fontSize = "20pt";
+        }
+
+        function zoomout(x){ 
+            x.style.fontSize = "12pt";
+        }
+
+        // function dbclick(){ 
+        //     document.body.style.backgroundColor = "lightcoral";
+        //     document.getElementById("click").innerHTML = "Background color has returned";
+
+        // }
+
+        // function load() {
+        //     alert("This site is for 18years old");
+        
+     </script>
+
+</body>
+</html>
