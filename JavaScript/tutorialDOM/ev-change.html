@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>Javascript Event | NIOMIC</title>
+ </head>
+ <body>
+
+    <h1>Hello world</h1>
+
+    <p>
+        Pilih menu:
+    </p>
+
+    <select name="menu" id="menu" onchange="choose()">
+        <option value="Paket A">Paket A</option>
+        <option value="Paket B">Paket B</option>
+        <option value="Paket C">Paket C</option>
+        <option value="Paket D">Paket D</option>
+        <option value="Paket E">Paket E</option>
+    </select>
+
+
+    <p id="clicked"></p>
+
+    <script type="text/javascript">
+        function choose(){ 
+            var x = document.getElementById("menu").value;
+            document.getElementById("clicked").innerHTML = "Your choose = "+ x;
+        }
+
+        // function dbclick(){ 
+        //     document.body.style.backgroundColor = "lightcoral";
+        //     document.getElementById("click").innerHTML = "Background color has returned";
+
+        // }
+
+        // function load() {
+        //     alert("This site is for 18years old");
+        // }
+     </script>
+
+</body>
+</html>

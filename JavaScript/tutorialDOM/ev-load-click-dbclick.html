@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>Javascript Event | NIOMIC</title>
+ </head>
+ <body onload="load()">
+
+    <h1>Hello world</h1>
+
+    <button id="one" type="button" onclick="click()" ondblclick="dbclick()">Click !</button>
+
+    <!-- <button id="two" type="button" >Click !</button> -->
+
+
+    <p id="click"></p>
+
+    <script type="text/javascript">
+        function click(){ 
+            document.body.style.backgroundColor = "white";
+            document.getElementById("click").innerHTML = "Background color has changed";
+
+        }
+
+        function dbclick(){ 
+            document.body.style.backgroundColor = "lightcoral";
+            document.getElementById("click").innerHTML = "Background color has returned";
+
+        }
+
+        function load() {
+            alert("This site is for 18years old");
+        }
+     </script>
+
+</body>
+</html>
