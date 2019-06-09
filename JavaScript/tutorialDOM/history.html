@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>Javascript Event | NIOMIC</title>
+ </head>
+ <body>
+
+    <h1>Hello world</h1>
+
+    <button id="three" type="button" onclick="justgomin()">Back 2</button> 
+
+    <button id="one" type="button" onclick="goback()">Back</button>
+    <button id="two" type="button" ondblclick="goforward()">Next</button>
+
+    <button id="four" type="button" ondblclick="justgoplus()">Next 2</button> 
+
+
+
+    <p id="click"></p>
+
+    <script type="text/javascript">
+        function goback(){ 
+            window.history.back();
+        }
+
+        function goforward(){ 
+            window.history.forward();
+
+        }
+
+        function justgoplus() {
+            window.history.go(+2);
+
+        }
+        
+        function justgomin() {
+            window.history.go(-2);
+            
+        }
+        
+     </script>
+
+</body>
+</html>
